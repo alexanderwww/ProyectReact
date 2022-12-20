@@ -1,0 +1,38 @@
+.container-testimonio{
+    background-color: aqua;
+    padding: 1.5rem;
+
+    max-width: 40rem;
+
+    display: grid;
+    /* grid-template-columns: repeat(2,auto); */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem;
+    border-radius: 1rem;
+    margin: 100px;
+
+    grid-auto-flow: dense;
+
+}
+
+.img-testimonio{
+
+    max-height: 8rem;
+    max-width: 8rem;
+    /* background-color: fuchsia; */
+
+}
+
+
+.box-text-testimonio{
+    /* background-color: red; */
+}
+
+.box-img-testimonio{
+    display: flex;
+    padding: .5rem;
+    align-items: center;
+    background-color: royalblue;
+    width: 100%;
+    height: 100%;
+}

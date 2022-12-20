@@ -1,0 +1,7 @@
+.container-pantalla{
+    min-width: 30vw;
+    min-height: 10vh;
+    background-color: rgb(185, 185, 185);
+    padding:10px 40px;
+}
+

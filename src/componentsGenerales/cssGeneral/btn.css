@@ -1,0 +1,111 @@
+input[type='submit']
+,button{
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-align: center;
+  color: #FFFFFF;
+  /* font-size: 1.125rem; */
+
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 10px;
+  
+}
+
+
+input[type='submit']:hover{
+    cursor: pointer;
+}
+
+
+input[type='submit'],
+button:disabled{
+    border-color: rgba(27, 31, 35, .1);
+    cursor: default;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+:root{
+    --green: #2ea44f;
+    --green-hover: #2c974b;
+    --green-disabled:  #2ea44f80;
+
+    --orange: #fa6400;
+    --orange-hover: #fb8332;
+    --orange-disabled: #fa640080;
+
+    --black: #111827;
+    --black-hover: #374151;
+    --black-disabled: #11182780;
+
+    --greenGradiente: #00d1b2;
+    --greenGradiente-hover: #358074;
+    --greenGradiente-disabled: #00d1b280;
+
+}
+
+/* -------------------------------------Black  */
+
+.btn-Black{
+    background-color: var(--black);
+}
+
+.btn-Black:hover {
+  background-color: var(--black-hover);
+}
+
+.btn-Black:disabled{
+    background-color: var(--black-disabled);
+}
+
+/* -------------------------------------Green  */
+
+.btn-Green {
+    background-color: var(--green);
+}
+
+.btn-Green:hover {
+    background-color: var(--green-hover);
+}
+
+
+.btn-Green:disabled {
+    background-color: var(--green-disabled);
+}
+
+
+
+/* -------------------------------------Orange  */
+
+.btn-Orange {
+    background-color: var(--orange);
+
+}
+
+.btn-Orange:hover {
+    background-color: var(--orange-hover); 
+
+}
+
+
+.btn-Orange:disabled {
+    background-color: var(--orange-disabled);
+}
+
+
+/* -------------------------------------Green Gradiente  */
+
+.btn-GreenGradiente {
+    background-color: #00d1b2;
+}
+
+.btn-GreenGradiente:hover {
+    background-color: var(--greenGradiente-hover); 
+
+}
+
+
+.btn-GreenGradiente:disabled {
+    background-color: var(--greenGradiente-disabled);
+}

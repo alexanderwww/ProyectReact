@@ -1,0 +1,32 @@
+.TareaText{
+    /* background-color: rebeccapurple; */
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    justify-items: center;
+}
+
+.TareaText h5{
+        padding: 10px 15px;
+        margin: 10px 0;
+        border: none;
+        outline: 1px solid rebeccapurple;
+        border-radius: 5px;
+    
+        width: 100%;
+        color: #fff;
+        cursor: pointer;
+}
+
+
+.TareaText:nth-child(3n + 1) h5{
+    background: #1b1b32;
+}
+
+.TareaText:nth-child(3n + 2) h5{
+    background: #2a2a40;
+}
+
+.TareaText:nth-child(3n + 3) h5{
+    background: #3b3b4f;
+}
