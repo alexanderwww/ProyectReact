@@ -1,0 +1,40 @@
+body {
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+}
+
+.containerCard{
+    background-color: #c2fbd7;
+    width: 500px;
+    /* height: 300px; */
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+    padding:  20px;
+    box-shadow: rgb(0 0 0 / 10%) 0 1px 2px 0;
+    margin-bottom: 20px;
+}
+
+
+.containerCard p{
+    max-width: 70%;
+    /* cursor: pointer; */
+}
+
+.containerCard img {
+    position: absolute;
+    top: 14%;
+    right: -37%;
+    width: 95%;
+    height: 95%;
+    transform: rotate(-7deg);
+    transition: all .3s
+}
+
+.containerCard:hover img {
+    top: 10%;
+    right: -35%;
+    transform: scale(1.1) rotate(-7deg)
+}

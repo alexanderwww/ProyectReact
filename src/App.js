@@ -9,6 +9,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import Card from './componentsGenerales/card/Card';
 const App = () => {
 
   return (
@@ -19,7 +20,34 @@ const App = () => {
 
         <Col className="d-flex justify-content-center align-items-center">
           <Row>
-            <AdministradorDeTareas />
+            <Col>
+              <AdministradorDeTareas />
+            </Col>
+            <Col>
+
+              <Card
+                title='Administrador De Tareas'
+                descripcion='Asigna tareas pendientes o por realizar, creado con React Js'
+                link='Tecnologias usadas →'
+              />
+
+
+              <Card
+                title='Administrador De Tareas'
+                descripcion='Asigna tareas pendientes o por realizar, creado con React Js'
+                link='Tecnologias usadas →'
+              />
+
+
+              <Card
+                title='Administrador De Tareas'
+                descripcion='Asigna tareas pendientes o por realizar, creado con React Js'
+                link='Tecnologias usadas →'
+              />
+
+
+
+            </Col>
           </Row>
         </Col>
 

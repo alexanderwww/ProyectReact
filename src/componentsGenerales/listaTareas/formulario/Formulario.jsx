@@ -36,8 +36,9 @@ const FormWork=(props)=>{
         // 'onSubmit={insertWork}'  es igual a onSubmit='{id:23 ,nombre:Name ,creador:Correo },
         // Con este valor lo agregamos a la lista de Tareas (que esta en App.js)
         <form onSubmit={insertWork} >
-            <Input id='Name' Placeholder='Name' />
-            <Input id='Correo' Placeholder='Correo' />
+            <h3>Administrador de tareas</h3>
+            <Input id='Name' Placeholder='Tarea' />
+            <Input id='Correo' Placeholder='Nombre' />
             <input type='submit' value='Agregar' className="btn-GreenGradiente" />
         </form>
     )
